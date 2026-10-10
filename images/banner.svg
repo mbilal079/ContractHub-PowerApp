@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="ContractHub: contract lifecycle management on Microsoft Power Platform">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E1830"/>
+      <stop offset="0.6" stop-color="#13203A"/>
+      <stop offset="1" stop-color="#1D3A5C"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect x="0" y="292" width="1200" height="8" fill="#D4A24C"/>
+  <circle cx="1110" cy="30" r="130" fill="#0F6E64" opacity="0.18"/>
+  <circle cx="40" cy="300" r="90" fill="#D4A24C" opacity="0.08"/>
+
+  <!-- logo + title -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="60" y="52" width="44" height="44" rx="10" fill="#D4A24C"/>
+    <circle cx="82" cy="74" r="11" fill="none" stroke="#13203A" stroke-width="3"/>
+    <text x="118" y="83" fill="#FFFFFF" font-size="26" font-weight="700">ContractHub</text>
+    <text x="60" y="160" fill="#FFFFFF" font-size="46" font-weight="700">Contract lifecycle,</text>
+    <text x="60" y="212" fill="#FFFFFF" font-size="46" font-weight="700">approvals &amp; <tspan fill="#D4A24C">automation</tspan></text>
+    <text x="60" y="256" fill="#C9D3E6" font-size="19">Power Apps · Dataverse · Power Automate · HTML email &amp; PDF</text>
+  </g>
+
+  <!-- lifecycle card -->
+  <g transform="translate(760,64)" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect width="380" height="172" rx="14" fill="url(#card)" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <text x="22" y="36" fill="#C9D3E6" font-size="13" font-weight="600" letter-spacing="1.5">LIFECYCLE</text>
+    <line x1="42" y1="80" x2="338" y2="80" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="3"/>
+    <line x1="42" y1="80" x2="190" y2="80" stroke="#1FA090" stroke-width="3"/>
+    <g font-size="12" font-weight="700" text-anchor="middle">
+      <circle cx="42" cy="80" r="15" fill="#0F6E64"/><text x="42" y="85" fill="#FFFFFF">✓</text>
+      <circle cx="116" cy="80" r="15" fill="#0F6E64"/><text x="116" y="85" fill="#FFFFFF">✓</text>
+      <circle cx="190" cy="80" r="15" fill="#D4A24C"/><text x="190" y="85" fill="#13203A">3</text>
+      <circle cx="264" cy="80" r="15" fill="#2A3A58" stroke="#FFFFFF" stroke-opacity="0.3"/><text x="264" y="85" fill="#C9D3E6">4</text>
+      <circle cx="338" cy="80" r="15" fill="#2A3A58" stroke="#FFFFFF" stroke-opacity="0.3"/><text x="338" y="85" fill="#C9D3E6">5</text>
+    </g>
+    <g font-size="11" fill="#C9D3E6" text-anchor="middle">
+      <text x="42" y="114">Draft</text><text x="116" y="114">Review</text>
+      <text x="190" y="114" fill="#FFFFFF" font-weight="700">Approval</text>
+      <text x="264" y="114">Approved</text><text x="338" y="114">Active</text>
+    </g>
+    <rect x="22" y="132" width="168" height="26" rx="13" fill="#D4A24C" opacity="0.95"/>
+    <text x="106" y="149" fill="#13203A" font-size="12" font-weight="700" text-anchor="middle">Your decision is needed</text>
+    <rect x="200" y="132" width="158" height="26" rx="13" fill="#0F6E64"/>
+    <text x="279" y="149" fill="#FFFFFF" font-size="12" font-weight="700" text-anchor="middle">Review &amp; decide →</text>
+  </g>
+</svg>
